@@ -1,0 +1,133 @@
+.a {
+    text-align: center;
+    font-family: verdana;
+    margin: 0;
+    background-color: #ECF9FF;
+}
+a:link {
+    color: green;
+    text-decoration: none;
+}
+a:visited {
+    color: magenta;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+h1 {font-size: 34; color: blue;}
+h2 {font-size: 27; color: darkslategrey;}
+
+img {
+    display: inline-block;
+    max-height: 600px;
+    max-width: auto;
+}
+.topImages {  
+    margin: 0 auto 0 auto;
+}
+.topImages > img {
+    max-height: 700px;
+    max-width: auto;
+}
+
+.part1{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #FFFBEB;
+    margin: 10% 15% 0% 15%;
+    padding:0 10% 10% 10%;
+}
+
+.left {
+    float: left;
+    width: 55%;
+}
+
+.right{
+    width: auto;
+    height: 200px;
+}
+.right > ul {
+    position: relative;
+    text-align: center;
+    display: inline;
+    height: auto;}
+
+
+.part2{
+    background-color: #FFE7CC ;
+    margin: 10% 15% 0% 15%;
+    padding-bottom: 20%;
+}
+.left2 {
+    float: left;
+    width: 55%;
+}
+
+.right2 {
+    width: auto;
+}
+.right > dl {
+    position: relative;
+    text-align: center;
+    display: inline;
+    height: auto;}
+
+.part3{
+    background-color: #F8CBA6;
+    margin: 10% 15% 0% 15%;
+    padding-bottom: 15%;
+}
+.left3 {
+    float: left;
+    width: 55%;
+}
+.left3 > img {
+    border-style:groove;
+}
+.right3 {
+    width: auto;
+}
+ul {
+    list-style: none;
+}
+hr { 
+    border: dotted grey 10px;
+    left: 0;    
+    bottom: 0;
+    width: 35%;
+    border-bottom: none;
+    /* auto makes it same on left and right (center) */
+    margin: 100px auto;
+}
+.button {
+    background-color: #ECF9FF; 
+    margin-top: 10%;
+    font-size: 40px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    padding: 0% 10% 0% 10%;
+    background: hsl(198, 84%, 68%);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  #search {
+    max-width: 150%;
+}
+
+
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
